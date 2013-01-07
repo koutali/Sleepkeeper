@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableRow android:layout_marginTop="30dp">
+         <TextView android:id="@+id/sleep_date_label_id"
+		          android:layout_width="wrap_content"
+		          android:layout_height="wrap_content"
+		          android:layout_marginLeft="20dp"
+		          
+		          android:text="@string/sleep_time" />
+    </TableRow>
+    
+    <TableRow >
+           
+             <Button android:id="@+id/sleep_date_button"
+			         android:layout_width="wrap_content"
+			         android:layout_height="wrap_content"
+			         android:layout_marginLeft="20dp"
+			         android:text="@string/sleep_date" />
+             
+            <Button android:id="@+id/sleep_time_button"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/sleep_time" />
+             	    
+    </TableRow>
+
+
+    <TableRow >
+        <TextView android:id="@+id/wake_time_label_id"
+			      android:layout_width="wrap_content"
+			      android:layout_height="wrap_content"
+			      android:layout_marginTop="30dp"
+			      android:layout_marginLeft="20dp"
+			      android:text="@string/wake_time" />
+    </TableRow>
+    
+    <TableRow>
+	    <Button android:id="@+id/wake_date_button"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="20dp"
+		        android:text="@string/wake_date" />
+	    
+	   <Button  android:id="@+id/wake_time_button"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/wake_time" />
+    </TableRow>
+   
+    <TableRow android:layout_marginTop="30dp" >
+         <TextView android:id="@+id/sleep_duration_label"
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content"
+				   android:layout_marginLeft="20dp"
+			       android:text="@string/sleep_duration" />
+         
+         <TextView android:id="@+id/sleep_duration"
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content"
+			       android:text="@string/sleep_duration" />
+    </TableRow>
+
+      <LinearLayout  android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:orientation="horizontal"
+			    android:layout_marginTop="30dp" >
+
+		    <Button
+		        android:id="@+id/save_button_id"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="20dp"
+		        android:text="@string/save_button" />
+		    
+		    <Button android:id="@+id/cancel_button_id"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/cancel_button" />
+       </LinearLayout>   
+    
+
+</TableLayout>

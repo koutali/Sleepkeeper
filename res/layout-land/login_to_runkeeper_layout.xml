@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableRow >
+      <TextView
+        android:id="@+id/login_to_runkeeper_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/login_to_runkeeper" />
+    </TableRow>
+
+	<TableRow >
+	    <TextView android:id="@+id/email_id"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="20dp"
+		        android:layout_marginLeft="20dp"
+		        android:text="@string/email_string" />
+	</TableRow>
+    
+	<TableRow >
+	        <EditText android:id="@+id/email_field"
+				      android:layout_width="wrap_content"
+				      android:layout_height="wrap_content"
+				      android:layout_marginLeft="20dp"
+				      android:ems="10"
+				      android:inputType="textEmailAddress"/>
+	</TableRow>
+
+		
+	<TableRow android:layout_marginTop="10dp" >
+	        <TextView
+	            android:id="@+id/password"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="20dp"
+	            android:text="@string/password_string" />
+
+	</TableRow>
+	<TableRow>
+	        <EditText
+	        android:id="@+id/password_field"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="20dp"
+	        android:ems="10"
+	        android:inputType="textPassword"/>
+	</TableRow>
+
+	    	<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" 
+		    android:layout_marginTop="10dp"
+		    android:layout_marginLeft="20dp" >
+				   <Button
+				    android:id="@+id/login_button_id"
+				    android:onClick="onLoginClick"
+				    android:text="@string/login_button_string" 
+				    android:layout_height="wrap_content" 
+				    android:layout_width="wrap_content"/>	  
+			    <Button
+			        android:id="@+id/cancel_button_id"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:onClick="onCancelClick"
+			        android:text="@string/cancel_button_string" />
+  
+		</LinearLayout>
+
+</TableLayout>

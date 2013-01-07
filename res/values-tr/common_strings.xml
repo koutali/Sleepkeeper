@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="login_to_runkeeper">Runkeeper\'a giriş</string>
+        <string name="sleep_duration">Süre</string>
+    	<string name="sleep_time">Yatış saati</string>
+    	<string name="wake_time">Kalkış saati</string>
+    	<string name="sleep">Kayıt oluştur</string>
+    	<string name="graph">Kayıtlar</string>
+    	<string name="settings">Ayarlar</string>
+</resources>

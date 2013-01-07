@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="auto_silent_mode">Telefonu sessize al</string>
+    <string name="wifi_auto_off">Kablosuz bağlantıyı kes</string>
+    <string name="set_alarm">Alarm kur</string>
+    <string name="auto_flight_mode">Uçuş modu</string>
+    <string name="alarm_app_could_not_be_started">Alarm uygulaması başlatılamadı. Lütfen alarmı elle kurun.</string>
+    <string name="no_alarm_app_found">Uygun alarm uygulaması bulunamadı. Lüften alarmı elle kurun.</string>
+</resources>

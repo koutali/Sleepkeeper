@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alarm_not_set">Alarm kurulu değil</string>
+    <string name="alarm_set">Alarm</string>
+    <string name="sleep_button">İyi uykular!</string>
+    <string name="waking_up_button">Kalkma vakti!</string>
+    <string name="error_reading_shared_preferences">Tercihler okunamadı</string>
+    <string name="error_restoring_data">Veri tekrar oluşturulamadı.</string>
+</resources>

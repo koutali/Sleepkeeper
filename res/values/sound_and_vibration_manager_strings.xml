@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_sound_and_vibration">Ringing mode changed to no sound and no vibration</string>
+    <string name="no_sound_but_vibration">Ringing mode changed to no soud but vibration</string>
+    <string name="normal_ringer_mode">Ringer mode changed to normal</string>
+    
+</resources>

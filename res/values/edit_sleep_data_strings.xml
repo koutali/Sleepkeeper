@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sleep_date">04/06/12</string>
+    <string name="save_button">Save</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="wake_date">04/06/12</string>
+    <string name="error_setting_date">Invalid date value!</string>
+    <string name="hours">hours</string>
+</resources>

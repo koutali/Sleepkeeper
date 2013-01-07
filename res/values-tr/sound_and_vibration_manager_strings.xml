@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_sound_and_vibration">Ses ve titreşim kapalı.</string>
+    <string name="no_sound_but_vibration">Ses kapalı. Titreşim açık.</string>
+    <string name="normal_ringer_mode">Ses açık</string>
+    
+</resources>

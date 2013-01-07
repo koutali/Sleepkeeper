@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="login_to_runkeeper">Login to Runkeeper</string>
+        <string name="sleep_duration">Duration</string>
+    	<string name="sleep_time">Sleep time</string>
+    	<string name="wake_time">Wake time</string>
+    	<string name="sleep">Create record</string>
+    	<string name="graph">Records</string>
+    	<string name="settings">Settings</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sleepkeeper.app"
+    android:versionCode="1"
+    android:versionName="1.0" android:installLocation="preferExternal">
+
+    <uses-sdk android:minSdkVersion="10" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" /><uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+    <uses-permission android:name="android.permission.SET_DEBUG_APP"/>
+    <uses-permission android:name="android.permission.SET_ORIENTATION"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.CLEAR_APP_USER_DATA"/>
+    <uses-configuration android:reqTouchScreen="finger"/>
+    <uses-feature android:required="true" android:name="android.hardware.audio.low_latency"/>
+    <uses-feature android:name="android.hardware.touch" android:required="false"/>
+    <uses-feature android:required="true" android:name="	android.hardware.wifi"/>
+    <supports-screens android:smallScreens="true" android:normalScreens="true" android:resizeable="true" android:anyDensity="true" android:largeScreens="true" android:xlargeScreens="false"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    
+
+    <application
+        android:icon="@drawable/sleepkeeper_logo"
+        android:label="@string/app_name" android:description="@string/app_description" android:allowTaskReparenting="false" android:hasCode="true">
+        <activity
+            android:label="@string/app_name" android:name="SleepkeeperDrawTabsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="StartStopSleepActivity"></activity>
+        <activity android:name="SleepGraphActivity"></activity>
+        <activity android:name="SettingsMenuActivity"></activity>
+        <activity android:name="EditSleepDataActivity"></activity>
+        <activity android:name="LoginToRunkeeperActivity"></activity>
+    </application>
+
+</manifest>

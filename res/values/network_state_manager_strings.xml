@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="failed_to_enable_wifi">Failed to enable WiFi</string>
+    <string name="wifi_enabled">WiFi enabled successfully</string>
+    <string name="failed_to_disable_wifi">Failed to disable WiFi</string>
+    <string name="wifi_disabled">WiFi disabled successfully</string>
+    
+</resources>

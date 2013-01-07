@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 	android:id="@+id/edit_sleep_data" 
+        	android:title="@string/edit_sleep_data"/>
+    <item 	android:id="@+id/delete_sleep_data" 
+        	android:title="@string/delete_sleep_data"/>
+    <item 	android:id="@+id/share_sleep_data" 
+        	android:title="@string/share_sleep_data"/>
+</menu>

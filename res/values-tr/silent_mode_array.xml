@@ -1,0 +1,10 @@
+<resources>
+<string-array name="listArray">
+    <item>Ses ve titreşim kapatıldı</item>
+    <item>Ses kapalı. Titreşim açık.</item>
+</string-array>
+<string-array name="listValues">
+    <item>No sound and vibration</item>
+    <item>No sound. Vibration on.</item>
+</string-array>
+</resources>

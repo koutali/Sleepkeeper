@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="email_string">E-posta:</string>
+    <string name="password_string">Şifre:</string>
+    <string name="login_button_string">Giriş</string>
+    <string name="cancel_button_string">Vazgeç</string>
+</resources>

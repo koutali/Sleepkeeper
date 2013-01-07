@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sleepkeeper</string>
+    <string name="app_description">Save your sleep data and share it on RunKeeper!</string>
+</resources>

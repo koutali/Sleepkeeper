@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alarm_not_set">Alarm not set</string>
+    <string name="alarm_set">Alarm set to</string>
+    <string name="sleep_button">Going to sleep</string>
+    <string name="waking_up_button">Waking up!</string>
+    <string name="error_reading_shared_preferences">Error reading shared preferences</string>
+    <string name="error_restoring_data">Error restoring data</string>
+</resources>

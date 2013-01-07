@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="record_date">Sleep date</string>
+    <string name="edit_sleep_data">Edit</string>
+    <string name="share_sleep_data">Share</string>
+    <string name="delete_sleep_data">Delete</string>
+    <string name="manually_add_sleep_record">Add sleep record</string>
+    <string name="sleep_data_created_manually">Sleep data created</string>
+    <string name="sleep_record_deleted">Sleep record deleted</string>
+    <string name="sleep_record_kept">Sleep record kept</string>
+    <string name="sleep_record_delete_confirmation">Are you sure you want to delete this record?</string>
+    <string name="delete_confirmed">Yes</string>
+    <string name="delete_cancelled">No</string>
+</resources>

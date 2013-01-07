@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mobile_connection_disabled">Veri bağlantısı kapatıldı</string>
+    <string name="failed_to_enable_wifi">Kablosuz ağa bağlanılamadı</string>
+    <string name="wifi_enabled">Kablosuz ağa bağlanıldı</string>
+    <string name="failed_to_disable_wifi">Kablosuz ağ bağlantısı kapatılamadı</string>
+    <string name="wifi_disabled">Kablosuz ağ bağlantısı kapatıldı</string>
+    
+</resources>

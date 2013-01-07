@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="record_date">Kayıt tarihi</string>
+    <string name="edit_sleep_data">Düzenle</string>
+    <string name="share_sleep_data">Paylaş</string>
+    <string name="delete_sleep_data">Sil</string>
+    <string name="manually_add_sleep_record">Uyku kaydı ekle</string>
+    <string name="sleep_data_created_manually">Uyku kaydı oluşturuldu</string>
+    <string name="sleep_record_deleted">Uyku kaydı silindi</string>
+    <string name="sleep_record_kept">Kayıt değiştirilmedi</string>
+    <string name="sleep_record_delete_confirmation">Bu kaydı silmek istediğinize emin misiniz?</string>
+    <string name="delete_confirmed">Evet</string>
+    <string name="delete_cancelled">Hayır</string>
+</resources>
